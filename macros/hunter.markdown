@@ -9,7 +9,7 @@
 
 **`#showtooltip`**
 
-Both the icon and tooltip of this macro are updated dynamically based upon the player’s talent selection in the second tier, defined below.
+Both the icon and tooltip of this macro are updated dynamically based upon the player’s talent selection in the second tier, as defined below.
 
 **`/cast [talent: 2/1] Binding Shot; [talent: 2/2] Wyvern Sting; [talent: 2/3] Intimidation`**
 
