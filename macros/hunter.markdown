@@ -3,7 +3,7 @@
 ##Macro
 
 	#showtooltip
-	/cast /!Aspect of the Cheetah
+	/cast !Aspect of the Cheetah
 
 ##Breakdown
 
