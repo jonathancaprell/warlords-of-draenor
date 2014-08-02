@@ -39,7 +39,7 @@ If Hand of Protection is present on the player, the aura is cancelled.
 
 **`/petattack [@pettarget, noexists]`**
 
-If the player’s pet does not have a target, the pet is sent to attack the player’s target; if the pet has a target, the pet continues as before. These conditions are set so that the pet can remain on a different target than the player’s if need be.
+The pet begins (or continues) attacking the player’s target if the pet does not already have a target; elsewise (if the pet has a target) the pet continues as before. This condition is set so that the pet can remain on a different target than the player’s if previously directed.
 
 **`/cast [talent: 4/1] Fervor; [talent: 4/2] Dire Beast`**
 
@@ -51,7 +51,7 @@ The player begins (or continues) attacking.
 
 
 
-#Dynamic Level 60 Talents
+#Dynamic Level 75 Talents
 
 ##Macro
 
@@ -69,11 +69,11 @@ Both the icon and tooltip of this macro are updated dynamically based upon the p
 
 **`/cancelaura Hand of Protection`**
 
-If Hand of Protection is present on the player, the aura is cancelled.
+If **Hand of Protection** is present on the player, the aura is cancelled.
 
 **`/petattack [@pettarget, noexists]`**
 
-If the player’s pet does not have a target, the pet is sent to attack the player’s target; if the pet has a target, the pet continues as before. These conditions are set so that the pet can remain on a different target than the player’s if need be.
+The pet begins (or continues) attacking the player’s target if the pet does not already have a target; elsewise (if the pet has a target) the pet continues as before. This condition is set so that the pet can remain on a different target than the player’s if previously directed.
 
 **`/cast [talent: 5/1] A Murder of Crows; [talent: 5/3] Stampede`**
 
@@ -82,3 +82,37 @@ A single active ability in the tier—**A Murder of Crows** or **Stampede**—is
 **`/startattack`**
 
 The player begins (or continues) attacking.
+
+
+
+#Dynamic Level 90 Talents
+
+##Macro
+
+	#showtooltip
+	/cancelaura Hand of Protection
+	/petattack [@pettarget, noexists, talent: 6/2] [@pettarget, noexists, talent: 6/3]
+	/cast [talent: 6/1] Glaive Toss; [talent: 6/2] Powershot; [talent: 6/3] Barrage
+	/startattack [talent: 6/2] [talent: 6/3]
+
+##Breakdown
+
+**`#showtooltip`**
+
+Both the icon and tooltip of this macro are updated dynamically based upon the player’s talent selection in the sixth tier, as defined below.
+
+**`/cancelaura Hand of Protection`**
+
+If **Hand of Protection** is present on the player, the aura is cancelled.
+
+**`/petattack [@pettarget, noexists, talent: 6/2] [@pettarget, noexists, talent: 6/3]`**
+
+The pet begins (or continues) attacking the player’s target if the pet does not already have a target, and if either Powershot or Barrage was taken in the sixth tier; elsewise (if the pet has a target, or if Glaive Toss [or no talent] is taken) the pet continues as before. These conditions are set, both so that the pet can remain on a different target than the player’s if previously directed, and so that Glaive Toss can still be pre-cast before an encounter begins.
+
+**`/cast [talent: 6/1] Glaive Toss; [talent: 6/2] Powershot; [talent: 6/3] Barrage`**
+
+A single active ability in the tier—**Glaive Toss**, **Powershot**, or **Barrage**—is cast with no modification.
+
+**`/startattack [talent: 6/2] [talent: 6/3]`**
+
+The player begins (or continues) attacking if either Powershot or Barrage was taken in the sixth tier. Elsewise, the player continues as before. These conditions are set so that Glaive Toss can still be pre-cast before an encounter begins.
