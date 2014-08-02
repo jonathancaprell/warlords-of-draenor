@@ -13,7 +13,7 @@ Both the icon and tooltip of this macro are updated dynamically based upon the p
 
 **`/cast [talent: 2/1] Binding Shot; [talent: 2/2] Wyvern Sting; [talent: 2/3] Intimidation`**
 
-A single ability in the tier—Binding Shot, Wyvern Sting, or Intimidation—is cast with no modification.
+A single ability in the tier—**Binding Shot**, **Wyvern Sting**, or **Intimidation**—is cast with no modification.
 
 
 
@@ -31,7 +31,7 @@ A single ability in the tier—Binding Shot, Wyvern Sting, or Intimidation—is 
 
 **`#showtooltip [talent: 4/1] Fervor; [talent: 4/2] Dire Beast; [talent: 4/3] Thrill of the Hunt`**
 
-Both the icon and tooltip of this macro are updated dynamically based upon the player’s talent selection in the second tier. These are called in specific because Thrill of the Hunt is passive, and elsewise would not return.
+Both the icon and tooltip of this macro are updated dynamically based upon the player’s talent selection in the fourth tier. These are called in specific because **Thrill of the Hunt** is passive, and elsewise would not return.
 
 **`/cancelaura Hand of Protection`**
 
@@ -43,7 +43,41 @@ If the player’s pet does not have a target, the pet is sent to attack the play
 
 **`/cast [talent: 4/1] Fervor; [talent: 4/2] Dire Beast`**
 
-A single active ability in the tier—Fervor or Dire Beast—is cast with no modification.
+A single active ability in the tier—**Fervor** or **Dire Beast**—is cast with no modification. **Thrill of Hunt** is not called, and no ability will be cast if this talent was chosen. Other lines still occur.
+
+**`/startattack`**
+
+The player begins (or continues) attacking.
+
+
+
+#Dynamic Level 60 Talents
+
+##Macro
+
+	#showtooltip [talent: 5/1] A Murder of Crows; [talent: 5/2] Blink Strikes; [talent: 5/3] Stampede
+	/cancelaura Hand of Protection
+	/petattack [@pettarget, noexists]
+	/cast [talent: 5/1] A Murder of Crows; [talent: 5/3] Stampede
+	/startattack
+
+##Breakdown
+
+**`#showtooltip [talent: 5/1] A Murder of Crows; [talent: 5/2] Blink Strikes; [talent: 5/3] Stampede`**
+
+Both the icon and tooltip of this macro are updated dynamically based upon the player’s talent selection in the fifth tier. These are called in specific because **Blink Strikes** is passive, and elsewise would not return.
+
+**`/cancelaura Hand of Protection`**
+
+If Hand of Protection is present on the player, the aura is cancelled.
+
+**`/petattack [@pettarget, noexists]`**
+
+If the player’s pet does not have a target, the pet is sent to attack the player’s target; if the pet has a target, the pet continues as before. These conditions are set so that the pet can remain on a different target than the player’s if need be.
+
+**`/cast [talent: 5/1] A Murder of Crows; [talent: 5/3] Stampede`**
+
+A single active ability in the tier—**A Murder of Crows** or **Stampede**—is cast with no modification. **Blink Strikes** is not called, and no ability will be cast if this talent was chosen. Other lines still occur.
 
 **`/startattack`**
 
