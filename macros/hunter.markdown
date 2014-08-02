@@ -1,3 +1,51 @@
+#Aspect of the Cheetah, Toggle Disabled
+
+##Macro
+
+	#showtooltip
+	/cast !Aspect of the Cheetah
+
+##Breakdown
+
+**`#showtooltip`**
+
+Both the icon and tooltip of this macro are defined by the ability below.
+
+**`/cast Aspect of the Cheetah`**
+
+[**Aspect of the Cheetah**](http://wod.wowhead.com/spell=5118) is cast, and subsequent re-casts will not toggle the aura off if it is still present on the player.
+
+
+
+#Draenic Agility Potion + Pet Movement
+
+##Macro
+
+	#showtooltip Draenic Agility Potion
+	/cast [nocombat] Dash
+	/cast [nocombat] Dive
+	/use Draenic Agility Potion
+
+##Breakdown
+
+**`#showtooltip Draenic Agility Potion`**
+
+asdf
+
+**`/cast [nocombat] Dash`**
+
+asdf
+
+**`/cast [nocombat] Dive`**
+
+asdf
+
+**`/use Draenic Agility Potion`**
+
+asdf
+
+
+
 #Dynamic Level 30 Talents
 
 ##Macro
@@ -13,7 +61,7 @@ Both the icon and tooltip of this macro are updated dynamically based upon the p
 
 **`/cast [talent: 2/1] Binding Shot; [talent: 2/2] Wyvern Sting; [talent: 2/3] Intimidation`**
 
-A single ability in the tier—[**Binding Shot**](http://wod.wowhead.com/spell=109248), [**Wyvern Sting**](http://wod.wowhead.com/spell=19386), or [**Intimidation**](http://wod.wowhead.com/spell=19577)—is cast with no modification.
+An ability in the tier—[**Binding Shot**](http://wod.wowhead.com/spell=109248), [**Wyvern Sting**](http://wod.wowhead.com/spell=19386), or [**Intimidation**](http://wod.wowhead.com/spell=19577)—is cast based upon the player’s choice in the talent tree.
 
 
 
@@ -43,7 +91,7 @@ The pet begins attacking the player’s target if the pet does not already have 
 
 **`/cast [talent: 4/1] Fervor; [talent: 4/2] Dire Beast`**
 
-A single active ability in the tier—[**Fervor**](http://wod.wowhead.com/spell=82726) or [**Dire Beast**](http://wod.wowhead.com/spell=120679)—is cast with no modification. [**Thrill of Hunt**](http://wod.wowhead.com/spell=109306) is not called, and no *ability* will be cast if this talent was chosen.
+An ability in the tier—[**Fervor**](http://wod.wowhead.com/spell=82726) or [**Dire Beast**](http://wod.wowhead.com/spell=120679)—is cast based upon the player’s choice in the talent tree. [**Thrill of Hunt**](http://wod.wowhead.com/spell=109306) is not called, and no ability will be cast if this talent was chosen.
 
 **`/startattack`**
 
@@ -77,7 +125,7 @@ The pet begins attacking the player’s target if the pet does not already have 
 
 **`/cast [talent: 5/1] A Murder of Crows; [talent: 5/3] Stampede`**
 
-A single active ability in the tier—[**A Murder of Crows**](http://wod.wowhead.com/spell=131894) or [**Stampede**](http://wod.wowhead.com/spell=121818)—is cast with no modification. [**Blink Strikes**](http://wod.wowhead.com/spell=130392) is not called, and no *ability* will be cast if this talent was chosen.
+An ability in the tier—[**A Murder of Crows**](http://wod.wowhead.com/spell=131894) or [**Stampede**](http://wod.wowhead.com/spell=121818)—is cast based upon the player’s choice in the talent tree. [**Blink Strikes**](http://wod.wowhead.com/spell=130392) is not called, and no ability will be cast if this talent was chosen.
 
 **`/startattack`**
 
@@ -111,7 +159,7 @@ The pet begins attacking the player’s target if the pet does not already have 
 
 **`/cast [talent: 6/1] Glaive Toss; [talent: 6/2] Powershot; [talent: 6/3] Barrage`**
 
-A single ability in the tier—[**Glaive Toss**](http://wod.wowhead.com/spell=117050), [**Powershot**](http://wod.wowhead.com/spell=109259), or [**Barrage**](http://wod.wowhead.com/spell=120360)—is cast with no modification.
+An ability in the tier—[**Glaive Toss**](http://wod.wowhead.com/spell=117050), [**Powershot**](http://wod.wowhead.com/spell=109259), or [**Barrage**](http://wod.wowhead.com/spell=120360)—is cast based upon the player’s choice in the talent tree.
 
 **`/startattack [talent: 6/2] [talent: 6/3]`**
 
