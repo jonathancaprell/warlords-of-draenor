@@ -4,7 +4,7 @@
 /cast [talent: 2/1] Binding Shot; [talent: 2/2] Wyvern Sting; [talent: 2/3] Intimidation
 ```
 
-#Dynamic Level 60 Talents + HoP Cancellation + Combat Maintenance
+###Dynamic Level 60 Talents + Hand of Protection Cancellation + Combat Maintenance
 ```
 #showtooltip [talent: 4/1] Fervor; [talent: 4/2] Dire Beast; [talent: 4/3] Thrill of the Hunt
 /cancelaura Hand of Protection
