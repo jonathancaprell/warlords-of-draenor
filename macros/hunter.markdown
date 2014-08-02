@@ -35,7 +35,7 @@ Both the icon and tooltip of this macro are updated dynamically based upon the p
 
 **`/cancelaura Hand of Protection`**
 
-If **Hand of Protection** is present on the player, the aura is cancelled.
+If [**Hand of Protection**](http://wod.wowhead.com/spell=1022) is present on the player, the aura is cancelled.
 
 **`/petattack [@pettarget, noexists]`**
 
@@ -69,7 +69,7 @@ Both the icon and tooltip of this macro are updated dynamically based upon the p
 
 **`/cancelaura Hand of Protection`**
 
-If **Hand of Protection** is present on the player, the aura is cancelled.
+If [**Hand of Protection**](http://wod.wowhead.com/spell=1022) is present on the player, the aura is cancelled.
 
 **`/petattack [@pettarget, noexists]`**
 
@@ -103,7 +103,7 @@ Both the icon and tooltip of this macro are updated dynamically based upon the p
 
 **`/cancelaura Hand of Protection`**
 
-If **Hand of Protection** is present on the player, the aura is cancelled.
+If [**Hand of Protection**](http://wod.wowhead.com/spell=1022) is present on the player, the aura is cancelled.
 
 **`/petattack [@pettarget, noexists, talent: 6/2] [@pettarget, noexists, talent: 6/3]`**
 
