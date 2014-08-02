@@ -17,6 +17,50 @@ Both the icon and tooltip of this macro are defined by the ability below.
 
 
 
+#Counter Shot Priority System
+
+##Macro
+
+	#showtooltip
+	/stopcasting
+	/stopcasting
+	/cancelaura Hand of Protection
+	/petattack [@pettarget, noexists]
+	/cast [@mouseover, exists, harm, nodead] [@focus, exists, harm, nodead] Counter Shot; Counter Shot
+	/startattack
+
+##Breakdown
+
+**`#showtooltip`**
+
+Both the icon and tooltip of this macro are defined by the ability below.
+
+**`/stopcasting`**
+
+All casting by the player is called to halt.
+
+**`/stopcasting`**
+
+All casting by the player is called to halt. This line is repeated because abilities with a cast time or channel must be halted separately from the player’s white swings.
+
+**`/cancelaura Hand of Protection`**
+
+If [**Hand of Protection**](http://wod.wowhead.com/spell=1022) is present on the player, the aura is cancelled.
+
+**`/petattack [@pettarget, noexists]`**
+
+The pet begins attacking the player’s target if the pet does not already have a target; elsewise (i.e, if the pet has a target) the pet continues as before. This condition is set so that the pet can remain on a different target than the player’s if previously directed.
+
+**`/cast [@mouseover, exists, harm, nodead] [@focus, exists, harm, nodead] Counter Shot; Counter Shot`**
+
+If there is a living, hostile mouseover target; or, if there is a living, hostile focused target; or, if there is a living, hostile target selected, [**Counter Shot**](http://wod.wowhead.com/spell=147362) is cast. The macro checks each of these conditions in order, and will cast when the first condition returns true; no ability will be cast if all of these conditions are false.
+
+**`/startattack`**
+
+The player begins (or resumes) attacking.
+
+
+
 #Deterrence and Cancellation
 
 ##Macro
@@ -189,7 +233,7 @@ An ability in the tier—[**Glaive Toss**](http://wod.wowhead.com/spell=117050),
 
 The player begins (or continues) attacking if either [**Powershot**](http://wod.wowhead.com/spell=109259) or [**Barrage**](http://wod.wowhead.com/spell=120360) was taken in the sixth tier. Elsewise, the player continues as before. These conditions are set so that [**Glaive Toss**](http://wod.wowhead.com/spell=117050) can still be pre-cast before an encounter begins.
 
-#Focusing Shot 
+#Focus Generator
 
 ##Macro
 
@@ -215,7 +259,7 @@ The pet begins attacking the player’s target if the pet does not already have 
 
 **`/cast Steady Shot`**
 
-[**Steady Shot**](http://wod.wowhead.com/spell=56641), [**Cobra Shot**](http://wod.wowhead.com/spell=77767), or [**Focusing Shot**](http://wod.wowhead.com/spell=152245) is cast, based upon the player’s specialization and the player’s selection in the seventh talent tier. This happens because of deeper mechanical underpinnings in the game wherein Steady Shot serves as the least common denominator for all three abilities, triggering whichever is actually available to the player.
+[**Steady Shot**](http://wod.wowhead.com/spell=56641), [**Cobra Shot**](http://wod.wowhead.com/spell=77767), or [**Focusing Shot**](http://wod.wowhead.com/spell=152245) is cast, based upon the player’s specialization and the player’s selection in the seventh talent tier. This happens because of deeper mechanical underpinnings in the game wherein [**Steady Shot**](http://wod.wowhead.com/spell=56641) serves as the least common denominator for all three abilities, triggering whichever focus generator is actually available to the player.
 
 **`/startattack`**
 
