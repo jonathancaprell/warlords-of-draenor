@@ -1,10 +1,10 @@
-#Dynamic Level 30 Talents (Binding Shot, Wyvern Sting, Intimidation)
+#Dynamic Level 30 Talents
 ```
 #showtooltip
 /cast [talent: 2/1] Binding Shot; [talent: 2/2] Wyvern Sting; [talent: 2/3] Intimidation
 ```
 
-#Dynamic Level 60 Talents (Fervor, Dire Beast, Thrill of the Hunt) + Hand of Protection Cancellation + Combat Maintenance
+#Dynamic Level 60 Talents + HoP Cancellation + Combat Maintenance
 ```
 #showtooltip [talent: 4/1] Fervor; [talent: 4/2] Dire Beast; [talent: 4/3] Thrill of the Hunt
 /cancelaura Hand of Protection
@@ -13,7 +13,7 @@
 /startattack
 ```
 
-#Dynamic Level 75 Talents (A Murder of Crows, Blink Strikes, Stampede) + Hand of Protection Cancellation + Combat Maintenance
+#Dynamic Level 75 Talents + HoP Cancellation + Combat Maintenance
 ```
 #showtooltip [talent: 5/1] A Murder of Crows; [talent: 5/2] Blink Strikes; [talent: 5/3] Stampede
 /cancelaura Hand of Protection
@@ -22,7 +22,7 @@
 /startattack
 ```
 
-#Dynamic Level 90 Talents + Hand of Protection Cancellation + Combat Maintenance (Glaive Toss Exempted)
+#Dynamic Level 90 Talents + HoP Cancellation + Combat Maintenance (GT Exempted)
 ```
 #showtooltip
 /cancelaura Hand of Protection
