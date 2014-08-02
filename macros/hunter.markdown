@@ -43,7 +43,7 @@ The pet begins attacking the player’s target if the pet does not already have 
 
 **`/cast [talent: 4/1] Fervor; [talent: 4/2] Dire Beast`**
 
-A single active ability in the tier—[**Fervor**](http://wod.wowhead.com/spell=82726) or [**Dire Beast**](http://wod.wowhead.com/spell=120679)—is cast with no modification. [**Thrill of Hunt**](http://wod.wowhead.com/spell=109306) is not called, and no ability will be cast if this talent was chosen; regardless, all other lines occur.
+A single active ability in the tier—[**Fervor**](http://wod.wowhead.com/spell=82726) or [**Dire Beast**](http://wod.wowhead.com/spell=120679)—is cast with no modification. [**Thrill of Hunt**](http://wod.wowhead.com/spell=109306) is not called, and no *ability* will be cast if this talent was chosen.
 
 **`/startattack`**
 
@@ -77,7 +77,7 @@ The pet begins attacking the player’s target if the pet does not already have 
 
 **`/cast [talent: 5/1] A Murder of Crows; [talent: 5/3] Stampede`**
 
-A single active ability in the tier—[**A Murder of Crows**](http://wod.wowhead.com/spell=131894) or [**Stampede**](http://wod.wowhead.com/spell=121818)—is cast with no modification. [**Blink Strikes**](http://wod.wowhead.com/spell=130392) is not called, and no ability will be cast if this talent was chosen; regardless, all other lines occur.
+A single active ability in the tier—[**A Murder of Crows**](http://wod.wowhead.com/spell=131894) or [**Stampede**](http://wod.wowhead.com/spell=121818)—is cast with no modification. [**Blink Strikes**](http://wod.wowhead.com/spell=130392) is not called, and no *ability* will be cast if this talent was chosen.
 
 **`/startattack`**
 
