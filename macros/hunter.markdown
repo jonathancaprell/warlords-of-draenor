@@ -1,5 +1,4 @@
 ##Dynamic Level 30 Talents
-====================
 ###Macro
 --------------------
 	#showtooltip
