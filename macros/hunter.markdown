@@ -5,11 +5,11 @@
 /cast [talent: 2/1] Binding Shot; [talent: 2/2] Wyvern Sting; [talent: 2/3] Intimidation
 ```
 
-###**```#showtooltip```**
+#####**```#showtooltip```**
 
 The icon and tooltip of this macro, functional for hunters regardless of specialization, are updated dynamically based upon the player’s talent selection in the second tier.
 
-###**```/cast [talent: 2/1] Binding Shot; [talent: 2/2] Wyvern Sting; [talent: 2/3] Intimidation```**
+#####**```/cast [talent: 2/1] Binding Shot; [talent: 2/2] Wyvern Sting; [talent: 2/3] Intimidation```**
 
 A single ability in the tier, defined by the previous talent choice—Binding Shot, Wyvern Sting, or Intimidation—is cast with no modification.
 
