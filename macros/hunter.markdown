@@ -13,7 +13,7 @@ Both the icon and tooltip of this macro are defined by the ability below.
 
 **`/cast Aspect of the Cheetah`**
 
-[**Aspect of the Cheetah**](http://wod.wowhead.com/spell=5118) is cast, and subsequent re-casts will not toggle the aura off if it is still present on the player.
+[**Aspect of the Cheetah**](http://wod.wowhead.com/spell=5118) is cast, and subsequent casts of this ability will not toggle the aura off if it is still present on the player.
 
 
 
@@ -30,19 +30,19 @@ Both the icon and tooltip of this macro are defined by the ability below.
 
 **`#showtooltip Draenic Agility Potion`**
 
-asdf
+Both the icon and tooltip of this macro are defined by the item [**Draenic Agility Potion**](http://wod.wowhead.com/item=109217). This is called in specific because other abilities precede the item’s usage in the macro.
 
 **`/cast [nocombat] Dash`**
 
-asdf
+[**Dash**](http://wod.wowhead.com/spell=61684) is cast if the player is out of combat. This is meant to quick the pet’s entry into the encounter.
 
 **`/cast [nocombat] Dive`**
 
-asdf
+[**Dive**](http://wod.wowhead.com/spell=23145) is cast if the player is out of combat. This is meant to quick the pet’s entry into the encounter.
 
 **`/use Draenic Agility Potion`**
 
-asdf
+[**Draenic Agility Potion**](http://wod.wowhead.com/item=109217) is used with no modification.
 
 
 
