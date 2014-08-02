@@ -13,7 +13,7 @@ Both the icon and tooltip of this macro are updated dynamically based upon the p
 
 **`/cast [talent: 2/1] Binding Shot; [talent: 2/2] Wyvern Sting; [talent: 2/3] Intimidation`**
 
-A single ability in the tier—**Binding Shot**, **Wyvern Sting**, or **Intimidation**—is cast with no modification.
+A single ability in the tier—[**Binding Shot**](http://wod.wowhead.com/spell=109248), [**Wyvern Sting**](http://wod.wowhead.com/spell=19386), or [**Intimidation**](http://wod.wowhead.com/spell=19577)—is cast with no modification.
 
 
 
@@ -31,7 +31,7 @@ A single ability in the tier—**Binding Shot**, **Wyvern Sting**, or **Intimida
 
 **`#showtooltip [talent: 4/1] Fervor; [talent: 4/2] Dire Beast; [talent: 4/3] Thrill of the Hunt`**
 
-Both the icon and tooltip of this macro are updated dynamically based upon the player’s talent selection in the fourth tier. These choices are called in specific because **Thrill of the Hunt** is passive, and elsewise would not return.
+Both the icon and tooltip of this macro are updated dynamically based upon the player’s talent selection in the fourth tier. These choices are called in specific because [**Thrill of Hunt**](http://wod.wowhead.com/spell=109306) is passive, and elsewise would not return.
 
 **`/cancelaura Hand of Protection`**
 
@@ -43,7 +43,7 @@ The pet begins attacking the player’s target if the pet does not already have 
 
 **`/cast [talent: 4/1] Fervor; [talent: 4/2] Dire Beast`**
 
-A single active ability in the tier—**Fervor** or **Dire Beast**—is cast with no modification. **Thrill of Hunt** is not called, and no ability will be cast if this talent was chosen; regardless, all other lines occur.
+A single active ability in the tier—[**Fervor**](http://wod.wowhead.com/spell=82726) or [**Dire Beast**](http://wod.wowhead.com/spell=120679)—is cast with no modification. [**Thrill of Hunt**](http://wod.wowhead.com/spell=109306) is not called, and no ability will be cast if this talent was chosen; regardless, all other lines occur.
 
 **`/startattack`**
 
@@ -107,12 +107,12 @@ If [**Hand of Protection**](http://wod.wowhead.com/spell=1022) is present on the
 
 **`/petattack [@pettarget, noexists, talent: 6/2] [@pettarget, noexists, talent: 6/3]`**
 
-The pet begins attacking the player’s target if the pet does not already have a target, and if either Powershot or Barrage was taken in the sixth tier; elsewise (if the pet has a target, or if Glaive Toss [or no talent] is taken) the pet continues as before. These conditions are set, both so that the pet can remain on a different target than the player’s if previously directed, and so that Glaive Toss can still be pre-cast before an encounter begins.
+The pet begins attacking the player’s target if the pet does not already have a target, and if either [**Powershot**](http://wod.wowhead.com/spell=109259) or [**Barrage**](http://wod.wowhead.com/spell=120360) was taken in the sixth tier; elsewise (if the pet has a target, or if [**Glaive Toss**](http://wod.wowhead.com/spell=117050) [or no talent] is taken) the pet continues as before. These conditions are set, both so that the pet can remain on a different target than the player’s if previously directed, and so that [**Glaive Toss**](http://wod.wowhead.com/spell=117050) can still be pre-cast before an encounter begins.
 
 **`/cast [talent: 6/1] Glaive Toss; [talent: 6/2] Powershot; [talent: 6/3] Barrage`**
 
-A single ability in the tier—**Glaive Toss**, **Powershot**, or **Barrage**—is cast with no modification.
+A single ability in the tier—[**Glaive Toss**](http://wod.wowhead.com/spell=117050), [**Powershot**](http://wod.wowhead.com/spell=109259), or [**Barrage**](http://wod.wowhead.com/spell=120360)—is cast with no modification.
 
 **`/startattack [talent: 6/2] [talent: 6/3]`**
 
-The player begins (or continues) attacking if either Powershot or Barrage was taken in the sixth tier. Elsewise, the player continues as before. These conditions are set so that Glaive Toss can still be pre-cast before an encounter begins.
+The player begins (or continues) attacking if either [**Powershot**](http://wod.wowhead.com/spell=109259) or [**Barrage**](http://wod.wowhead.com/spell=120360) was taken in the sixth tier. Elsewise, the player continues as before. These conditions are set so that [**Glaive Toss**](http://wod.wowhead.com/spell=117050) can still be pre-cast before an encounter begins.
