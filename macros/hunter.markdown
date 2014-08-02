@@ -17,6 +17,30 @@ Both the icon and tooltip of this macro are defined by the ability below.
 
 
 
+#Deterrence and Cancelaura
+
+##Macro
+
+	#showtooltip
+	/cancelaura Deterrence
+	/cast Deterrence
+
+##Breakdown
+
+**`#showtooltip`**
+
+Both the icon and tooltip of this macro are defined by the ability below.
+
+**`/cancelaura Deterrence`**
+
+If [**Deterrence**](http://wod.wowhead.com/spell=19263) is present on the player, the aura is cancelled. This is done so that the player can more quickly resume combat if damage mitigation is no longer required.
+
+**`/cast Deterrence`**
+
+[**Deterrence**](http://wod.wowhead.com/spell=19263) is cast with no modification.
+
+
+
 #Draenic Agility Potion + Pet Movement
 
 ##Macro
@@ -34,11 +58,11 @@ Both the icon and tooltip of this macro are defined by the item [**Draenic Agili
 
 **`/cast [nocombat] Dash`**
 
-[**Dash**](http://wod.wowhead.com/spell=61684) is cast if the player is out of combat. This is meant to quick the pet’s entry into the encounter.
+[**Dash**](http://wod.wowhead.com/spell=61684) is cast if the player is out of combat. This is meant to quick the pet’s initial entry into the encounter, and so is not called if the player is already in combat.
 
 **`/cast [nocombat] Dive`**
 
-[**Dive**](http://wod.wowhead.com/spell=23145) is cast if the player is out of combat. This is meant to quick the pet’s entry into the encounter.
+[**Dive**](http://wod.wowhead.com/spell=23145) is cast if the player is out of combat. This is meant to quick the pet’s initial entry into the encounter, and so is not called if the player is already in combat.
 
 **`/use Draenic Agility Potion`**
 
