@@ -188,3 +188,35 @@ An ability in the tier—[**Glaive Toss**](http://wod.wowhead.com/spell=117050),
 **`/startattack [talent: 6/2] [talent: 6/3]`**
 
 The player begins (or continues) attacking if either [**Powershot**](http://wod.wowhead.com/spell=109259) or [**Barrage**](http://wod.wowhead.com/spell=120360) was taken in the sixth tier. Elsewise, the player continues as before. These conditions are set so that [**Glaive Toss**](http://wod.wowhead.com/spell=117050) can still be pre-cast before an encounter begins.
+
+#Focusing Shot 
+
+##Macro
+
+	#showtooltip
+	/cancelaura Hand of Protection
+	/petattack [@pettarget, noexists]
+	/cast Steady Shot
+	/startattack
+
+##Breakdown
+
+**`#showtooltip`**
+
+Both the icon and tooltip of this macro are updated dynamically based upon the player’s specialization and the player’s selection in the seventh talent tier. The details of this are described below.
+
+**`/cancelaura Hand of Protection`**
+
+If [**Hand of Protection**](http://wod.wowhead.com/spell=1022) is present on the player, the aura is cancelled.
+
+**`/petattack [@pettarget, noexists]`**
+
+The pet begins attacking the player’s target if the pet does not already have a target; elsewise (i.e, if the pet has a target) the pet continues as before. This condition is set so that the pet can remain on a different target than the player’s if previously directed.
+
+**`/cast Steady Shot`**
+
+[**Steady Shot**](http://wod.wowhead.com/spell=56641), [**Cobra Shot**](http://wod.wowhead.com/spell=77767), or [**Focusing Shot**](http://wod.wowhead.com/spell=152245) is cast, based upon the player’s specialization and the player’s selection in the seventh talent tier. This happens because of deeper mechanical underpinnings in the game wherein Steady Shot serves as the least common denominator for all three abilities, triggering whichever is actually available to the player.
+
+**`/startattack`**
+
+The player begins (or continues) attacking.
