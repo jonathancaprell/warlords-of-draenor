@@ -9,15 +9,14 @@
 
 **```#showtooltip```**
 
-The icon and tooltip of this macro, functional for hunters regardless of specialization, are updated dynamically based upon the player’s talent selection in the second tier.
+Both the icon and tooltip of this macro are updated dynamically based upon the player’s talent selection in the second tier.
 
 **```/cast [talent: 2/1] Binding Shot; [talent: 2/2] Wyvern Sting; [talent: 2/3] Intimidation```**
 
 A single ability in the tier, defined by the previous talent choice—Binding Shot, Wyvern Sting, or Intimidation—is cast with no modification.
 
 ###Dynamic Level 60 Talents
-The icon and tooltip of this macro, functional for hunters regardless of specialization, are updated dynamically based upon the player’s talent selection in the fourth tier.
-A single ability in the tier, defined by the previous talent choice—Binding Shot, Wyvern Sting, or Intimidation—is cast with no modification.
+
 ```
 #showtooltip [talent: 4/1] Fervor; [talent: 4/2] Dire Beast; [talent: 4/3] Thrill of the Hunt
 /cancelaura Hand of Protection
@@ -25,6 +24,19 @@ A single ability in the tier, defined by the previous talent choice—Binding Sh
 /cast [talent: 4/1] Fervor; [talent: 4/2] Dire Beast
 /startattack
 ```
+
+**```#showtooltip```**
+
+Both the icon and tooltip of this macro are updated dynamically based upon the player’s talent selection in the fourth tier. The abilities are called in specific because Thrill of the Hunt is a passive, and would elsewise not return.
+
+**```/cancelaura Hand of Protection```**
+
+If Hand of Protection is present, the aura is cancelled.
+
+**```/petattack [@pettarget, noexists]```**
+
+If the player’s pet does not have a target, the pet is sent to attack the player’s target; elsewise, 
+A single ability in the tier, defined by the previous talent choice—Binding Shot, Wyvern Sting, or Intimidation—is cast with no modification.
 
 #Dynamic Level 75 Talents + HoP Cancellation + Combat Maintenance
 ```
