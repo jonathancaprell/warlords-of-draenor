@@ -39,7 +39,7 @@ If [**Hand of Protection**](http://wod.wowhead.com/spell=1022) is present on the
 
 **`/petattack [@pettarget, noexists]`**
 
-The pet begins attacking the player’s target if the pet does not already have a target; elsewise (if the pet has a target) the pet continues as before. This condition is set so that the pet can remain on a different target than the player’s if previously directed.
+The pet begins attacking the player’s target if the pet does not already have a target; elsewise (i.e, if the pet has a target) the pet continues as before. This condition is set so that the pet can remain on a different target than the player’s if previously directed.
 
 **`/cast [talent: 4/1] Fervor; [talent: 4/2] Dire Beast`**
 
@@ -73,7 +73,7 @@ If [**Hand of Protection**](http://wod.wowhead.com/spell=1022) is present on the
 
 **`/petattack [@pettarget, noexists]`**
 
-The pet begins attacking the player’s target if the pet does not already have a target; elsewise (if the pet has a target) the pet continues as before. This condition is set so that the pet can remain on a different target than the player’s if previously directed.
+The pet begins attacking the player’s target if the pet does not already have a target; elsewise (i.e, if the pet has a target) the pet continues as before. This condition is set so that the pet can remain on a different target than the player’s if previously directed.
 
 **`/cast [talent: 5/1] A Murder of Crows; [talent: 5/3] Stampede`**
 
@@ -107,7 +107,7 @@ If [**Hand of Protection**](http://wod.wowhead.com/spell=1022) is present on the
 
 **`/petattack [@pettarget, noexists, talent: 6/2] [@pettarget, noexists, talent: 6/3]`**
 
-The pet begins attacking the player’s target if the pet does not already have a target, and if either [**Powershot**](http://wod.wowhead.com/spell=109259) or [**Barrage**](http://wod.wowhead.com/spell=120360) was taken in the sixth tier; elsewise (if the pet has a target, or if [**Glaive Toss**](http://wod.wowhead.com/spell=117050) [or no talent] is taken) the pet continues as before. These conditions are set, both so that the pet can remain on a different target than the player’s if previously directed, and so that [**Glaive Toss**](http://wod.wowhead.com/spell=117050) can still be pre-cast before an encounter begins.
+The pet begins attacking the player’s target if the pet does not already have a target, and if either [**Powershot**](http://wod.wowhead.com/spell=109259) or [**Barrage**](http://wod.wowhead.com/spell=120360) was taken in the sixth tier; elsewise (i.e, if the pet has a target, or if [**Glaive Toss**](http://wod.wowhead.com/spell=117050) [or no talent] is taken) the pet continues as before. These conditions are set, both so that the pet can remain on a different target than the player’s if previously directed, and so that [**Glaive Toss**](http://wod.wowhead.com/spell=117050) can still be pre-cast before an encounter begins.
 
 **`/cast [talent: 6/1] Glaive Toss; [talent: 6/2] Powershot; [talent: 6/3] Barrage`**
 
