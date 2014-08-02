@@ -11,7 +11,7 @@
 
 Both the icon and tooltip of this macro are defined by the ability below.
 
-**`/cast Aspect of the Cheetah`**
+**`/cast !Aspect of the Cheetah`**
 
 [**Aspect of the Cheetah**](http://wod.wowhead.com/spell=5118) is cast, and subsequent casts of this ability will not toggle the aura off if it is still present on the player.
 
@@ -53,7 +53,7 @@ The pet begins attacking the player’s target if the pet does not already have 
 
 **`/cast [@mouseover, exists, harm, nodead] [@focus, exists, harm, nodead] Counter Shot; Counter Shot`**
 
-If there is a living, hostile mouseover target; or, if there is a living, hostile focused target; or, if there is a living, hostile target selected, [**Counter Shot**](http://wod.wowhead.com/spell=147362) is cast. The macro checks each of these conditions in order, and will cast when the first condition returns true; no ability will be cast if all of these conditions are false.
+If there is a living, hostile mouseover target; or, if there is a living, hostile focused target; or, if there is a living, hostile target selected, [**Counter Shot**](http://wod.wowhead.com/spell=147362) is cast on that target. The macro checks each of these conditions in order, and will cast when the first condition returns true; no ability will be cast if all of these conditions are false.
 
 **`/startattack`**
 
@@ -233,6 +233,8 @@ An ability in the tier—[**Glaive Toss**](http://wod.wowhead.com/spell=117050),
 
 The player begins (or continues) attacking if either [**Powershot**](http://wod.wowhead.com/spell=109259) or [**Barrage**](http://wod.wowhead.com/spell=120360) was taken in the sixth tier. Elsewise, the player continues as before. These conditions are set so that [**Glaive Toss**](http://wod.wowhead.com/spell=117050) can still be pre-cast before an encounter begins.
 
+
+
 #Focus Generator
 
 ##Macro
@@ -264,3 +266,32 @@ The pet begins attacking the player’s target if the pet does not already have 
 **`/startattack`**
 
 The player begins (or continues) attacking.
+
+
+
+#Misdirection and Focus Target Management
+
+##Macro
+
+	#showtooltip Misdirection
+	/focus [help]
+	/stopmacro [help]
+	/cast [@mouseover, exists, help, nodead] [@focus, exists, help, nodead] [@pet, exists, nodead] Misdirection
+
+##Breakdown
+
+**`#showtooltip Misdirection`**
+
+Both the icon and tooltip of this macro are defined by the ability [**Misdirection**](http://wod.wowhead.com/spell=34477). This is called in specific because the macro also serves to define the player’s focus target, wherein the ability is inactive.
+
+**`/focus [help]`**
+
+If the player’s selected target is an ally, then that target is made the player’s focus.
+
+**`/stopmacro [help]`**
+
+If the player’s selected target is an ally, the macro ceases, and no more of it is executed. This allows the macro to define the player’s focus as a targeted ally without immediately casting [**Misdirection**](http://wod.wowhead.com/spell=34477) on that target.
+
+**`/cast [@mouseover, exists, help, nodead] [@focus, exists, help, nodead] [@pet, exists, nodead] Misdirection`**
+
+If there is a living, allied mouseover target; or, if there is a living, allied focused target; or, if the player’s pet exists and is living, then [**Misdirection**](http://wod.wowhead.com/spell=34477) is cast on that target. The macro checks each of these conditions in order, and will cast when the first condition returns true; no ability will be cast if all of these conditions are false.
