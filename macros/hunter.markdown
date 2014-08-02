@@ -17,6 +17,50 @@ Both the icon and tooltip of this macro are defined by the ability below.
 
 
 
+#Black Arrow
+
+##Macro
+
+	#showtooltip
+	/stopcasting
+	/stopcasting
+	/cancelaura Hand of Protection
+	/petattack [@pettarget, noexists]
+	/cast Black Arrow
+	/startattack
+
+##Breakdown
+
+**`#showtooltip`**
+
+Both the icon and tooltip of this macro are defined by the ability below.
+
+**`/stopcasting`**
+
+All casting by the player is called to halt.
+
+**`/stopcasting`**
+
+All casting by the player is called to halt. This line is repeated because abilities with a cast time or channel must be halted separately from the player’s white swings.
+
+**`/cancelaura Hand of Protection`**
+
+If [**Hand of Protection**](http://wod.wowhead.com/spell=1022) is present on the player, the aura is cancelled.
+
+**`/petattack [@pettarget, noexists]`**
+
+The pet begins attacking the player’s target if the pet does not already have a target; elsewise (i.e, if the pet has a target) the pet continues as before. This condition is set so that the pet can remain on a different target than the player’s if previously directed.
+
+**`/cast Black Arrow`**
+
+[**Black Arrow**](http://wod.wowhead.com/spell=3674) is cast with no modification.
+
+**`/startattack`**
+
+The player begins (or resumes) attacking.
+
+
+
 #Counter Shot Priority System
 
 ##Macro
@@ -235,6 +279,50 @@ The player begins (or continues) attacking if either [**Powershot**](http://wod.
 
 
 
+#Explosive Shot
+
+##Macro
+
+	#showtooltip
+	/stopcasting
+	/stopcasting
+	/cancelaura Hand of Protection
+	/petattack [@pettarget, noexists]
+	/cast Explosive Shot
+	/startattack
+
+##Breakdown
+
+**`#showtooltip`**
+
+Both the icon and tooltip of this macro are defined by the ability below.
+
+**`/stopcasting`**
+
+All casting by the player is called to halt.
+
+**`/stopcasting`**
+
+All casting by the player is called to halt. This line is repeated because abilities with a cast time or channel must be halted separately from the player’s white swings.
+
+**`/cancelaura Hand of Protection`**
+
+If [**Hand of Protection**](http://wod.wowhead.com/spell=1022) is present on the player, the aura is cancelled.
+
+**`/petattack [@pettarget, noexists]`**
+
+The pet begins attacking the player’s target if the pet does not already have a target; elsewise (i.e, if the pet has a target) the pet continues as before. This condition is set so that the pet can remain on a different target than the player’s if previously directed.
+
+**`/cast Explosive Shot`**
+
+[**Explosive Shot**](http://wod.wowhead.com/spell=53301) is cast with no modification.
+
+**`/startattack`**
+
+The player begins (or resumes) attacking.
+
+
+
 #Focus Generator
 
 ##Macro
@@ -269,7 +357,7 @@ The player begins (or continues) attacking.
 
 
 
-#Misdirection and Focus Target Management
+#Focus Target Management and Misdirection
 
 ##Macro
 
@@ -295,3 +383,47 @@ If the player’s selected target is an ally, the macro ceases, and no more of i
 **`/cast [@mouseover, exists, help, nodead] [@focus, exists, help, nodead] [@pet, exists, nodead] Misdirection`**
 
 If there is a living, allied mouseover target; or, if there is a living, allied focused target; or, if the player’s pet exists and is living, then [**Misdirection**](http://wod.wowhead.com/spell=34477) is cast on that target. The macro checks each of these conditions in order, and will cast when the first condition returns true; no ability will be cast if all of these conditions are false.
+
+
+
+#Multi-Shot
+
+##Macro
+
+	#showtooltip
+	/stopcasting
+	/stopcasting
+	/cancelaura Hand of Protection
+	/petattack [@pettarget, noexists]
+	/cast Multi-Shot
+	/startattack
+
+##Breakdown
+
+**`#showtooltip`**
+
+Both the icon and tooltip of this macro are defined by the ability below.
+
+**`/stopcasting`**
+
+All casting by the player is called to halt.
+
+**`/stopcasting`**
+
+All casting by the player is called to halt. This line is repeated because abilities with a cast time or channel must be halted separately from the player’s white swings.
+
+**`/cancelaura Hand of Protection`**
+
+If [**Hand of Protection**](http://wod.wowhead.com/spell=1022) is present on the player, the aura is cancelled.
+
+**`/petattack [@pettarget, noexists]`**
+
+The pet begins attacking the player’s target if the pet does not already have a target; elsewise (i.e, if the pet has a target) the pet continues as before. This condition is set so that the pet can remain on a different target than the player’s if previously directed.
+
+**`/cast Multi-Shot`**
+
+[**Multi-Shot**](http://wod.wowhead.com/spell=2643) is cast with no modification.
+
+**`/startattack`**
+
+The player begins (or resumes) attacking.
