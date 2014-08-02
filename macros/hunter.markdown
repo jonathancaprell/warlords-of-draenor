@@ -65,7 +65,7 @@ The player begins (or continues) attacking.
 
 **`#showtooltip [talent: 5/1] A Murder of Crows; [talent: 5/2] Blink Strikes; [talent: 5/3] Stampede`**
 
-Both the icon and tooltip of this macro are updated dynamically based upon the player’s talent selection in the fifth tier. These choices are called in specific because **Blink Strikes** is passive, and elsewise would not return.
+Both the icon and tooltip of this macro are updated dynamically based upon the player’s talent selection in the fifth tier. These choices are called in specific because [**Blink Strikes**](http://wod.wowhead.com/spell=130392) is passive, and elsewise would not return.
 
 **`/cancelaura Hand of Protection`**
 
@@ -77,7 +77,7 @@ The pet begins attacking the player’s target if the pet does not already have 
 
 **`/cast [talent: 5/1] A Murder of Crows; [talent: 5/3] Stampede`**
 
-A single active ability in the tier—**A Murder of Crows** or **Stampede**—is cast with no modification. **Blink Strikes** is not called, and no ability will be cast if this talent was chosen; regardless, all other lines occur.
+A single active ability in the tier—**A Murder of Crows** or **Stampede**—is cast with no modification. [**Blink Strikes**](http://wod.wowhead.com/spell=130392) is not called, and no ability will be cast if this talent was chosen; regardless, all other lines occur.
 
 **`/startattack`**
 
