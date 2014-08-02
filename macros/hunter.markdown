@@ -1,5 +1,4 @@
-#Dynamic Level 30 Talents
-(Binding Shot, Wyvern Sting, Intimidation)
+#Dynamic Level 30 Talents (Binding Shot, Wyvern Sting, Intimidation)
 ```
 #showtooltip
 /cast [talent: 2/1] Binding Shot; [talent: 2/2] Wyvern Sting; [talent: 2/3] Intimidation
