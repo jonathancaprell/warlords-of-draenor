@@ -17,7 +17,7 @@ Both the icon and tooltip of this macro are defined by the ability below.
 
 
 
-#Deterrence and Cancelaura
+#Deterrence and Cancellation
 
 ##Macro
 
