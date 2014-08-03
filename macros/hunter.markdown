@@ -629,6 +629,30 @@ The player begins (or resumes) attacking.
 
 
 
+#Rapid Fire
+
+##Macro
+
+	#showtooltip
+	/cancelaura Hand of Protection
+	/cast Rapid Fire
+
+##Breakdown
+
+**`#showtooltip`**
+
+Both the icon and tooltip of this macro are defined by the ability below.
+
+**`/cancelaura Hand of Protection`**
+
+If [**Hand of Protection**](http://wod.wowhead.com/spell=1022) is present on the player, the aura is cancelled.
+
+**`/cast Rapid Fire`**
+
+[**Rapid Fire**](http://wod.wowhead.com/spell=3045) is cast with no modification.
+
+
+
 #Roar of Sacrifice
 
 ##Macro
