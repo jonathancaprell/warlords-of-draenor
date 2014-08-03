@@ -1,3 +1,37 @@
+#Arcane Shot & Combat Management
+
+##Macro
+
+	#showtooltip
+	/cancelaura Hand of Protection
+	/petattack [@pettarget, noexists]
+	/cast Arcane Shot
+	/startattack
+
+##Breakdown
+
+**`#showtooltip`**
+
+Both the icon and tooltip of this macro are defined by the ability below.
+
+**`/cancelaura Hand of Protection`**
+
+If [**Hand of Protection**](http://wod.wowhead.com/spell=1022) is present on the player, the aura is cancelled.
+
+**`/petattack [@pettarget, noexists]`**
+
+The pet begins attacking the player’s target if the pet does not already have a target; elsewise (i.e, if the pet has a target) the pet continues as before. This condition is set so that the pet can remain on a different target than the player’s if previously directed.
+
+**`/cast Arcane Shot`**
+
+[**Arcane Shot**](http://wod.wowhead.com/spell=3044) is cast with no modification.
+
+**`/startattack`**
+
+The player begins (or continues) attacking.
+
+
+
 #Aspect of the Cheetah, Toggle Disabled
 
 ##Macro
@@ -14,6 +48,30 @@ Both the icon and tooltip of this macro are defined by the ability below.
 **`/cast !Aspect of the Cheetah`**
 
 [**Aspect of the Cheetah**](http://wod.wowhead.com/spell=5118) is cast, and subsequent casts of this ability will not toggle the aura off if it is still present on the player.
+
+
+
+#Bestial Wrath
+
+##Macro
+
+	#showtooltip
+	/cancelaura Hand of Protection
+	/cast Bestial Wrath
+
+##Breakdown
+
+**`#showtooltip`**
+
+Both the icon and tooltip of this macro are defined by the ability below.
+
+**`/cancelaura Hand of Protection`**
+
+If [**Hand of Protection**](http://wod.wowhead.com/spell=1022) is present on the player, the aura is cancelled.
+
+**`/cast Bestial Wrath`**
+
+[**Bestial Wrath**](http://wod.wowhead.com/spell=19574) is cast with no modification.
 
 
 
@@ -48,6 +106,50 @@ The pet begins attacking the player’s target if the pet does not already have 
 **`/startattack`**
 
 The player begins (or continues) attacking.
+
+
+
+#Chimaera Shot & Combat Management
+
+##Macro
+
+	#showtooltip
+	/stopcasting
+	/stopcasting
+	/cancelaura Hand of Protection
+	/petattack [@pettarget, noexists]
+	/cast Chimaera Shot
+	/startattack
+
+##Breakdown
+
+**`#showtooltip`**
+
+Both the icon and tooltip of this macro are defined by the ability below.
+
+**`/stopcasting`**
+
+All casting by the player is called to halt.
+
+**`/stopcasting`**
+
+All casting by the player is called to halt. This line is repeated because abilities with a cast time or channel must be halted separately from the player’s white swings.
+
+**`/cancelaura Hand of Protection`**
+
+If [**Hand of Protection**](http://wod.wowhead.com/spell=1022) is present on the player, the aura is cancelled.
+
+**`/petattack [@pettarget, noexists]`**
+
+The pet begins attacking the player’s target if the pet does not already have a target; elsewise (i.e, if the pet has a target) the pet continues as before. This condition is set so that the pet can remain on a different target than the player’s if previously directed.
+
+**`/cast Chimaera Shot`**
+
+[**Chimaera Shot**](http://wod.wowhead.com/spell=53209) is cast with no modification.
+
+**`/startattack`**
+
+The player begins (or resumes) attacking.
 
 
 
@@ -376,6 +478,113 @@ If there is a living, allied mouseover target; or, if there is a living, allied 
 
 
 
+#Kill Command & Combat Management
+
+##Macro
+
+	#showtooltip
+	/stopcasting
+	/stopcasting
+	/cancelaura Hand of Protection
+	/petattack [@pettarget, noexists]
+	/cast Kill Command
+	/startattack
+
+##Breakdown
+
+**`#showtooltip`**
+
+Both the icon and tooltip of this macro are defined by the ability below.
+
+**`/stopcasting`**
+
+All casting by the player is called to halt.
+
+**`/stopcasting`**
+
+All casting by the player is called to halt. This line is repeated because abilities with a cast time or channel must be halted separately from the player’s white swings.
+
+**`/cancelaura Hand of Protection`**
+
+If [**Hand of Protection**](http://wod.wowhead.com/spell=1022) is present on the player, the aura is cancelled.
+
+**`/petattack [@pettarget, noexists]`**
+
+The pet begins attacking the player’s target if the pet does not already have a target; elsewise (i.e, if the pet has a target) the pet continues as before. This condition is set so that the pet can remain on a different target than the player’s if previously directed.
+
+**`/cast Kill Command`**
+
+[**Kill Command**](http://wod.wowhead.com/spell=34026) is cast with no modification.
+
+**`/startattack`**
+
+The player begins (or resumes) attacking.
+
+
+
+#Kill Shot & Combat Management
+
+##Macro
+
+	#showtooltip
+	/stopcasting
+	/stopcasting
+	/cancelaura Hand of Protection
+	/petattack [@pettarget, noexists]
+	/cast Kill Shot
+	/startattack
+
+##Breakdown
+
+**`#showtooltip`**
+
+Both the icon and tooltip of this macro are defined by the ability below.
+
+**`/stopcasting`**
+
+All casting by the player is called to halt.
+
+**`/stopcasting`**
+
+All casting by the player is called to halt. This line is repeated because abilities with a cast time or channel must be halted separately from the player’s white swings.
+
+**`/cancelaura Hand of Protection`**
+
+If [**Hand of Protection**](http://wod.wowhead.com/spell=1022) is present on the player, the aura is cancelled.
+
+**`/petattack [@pettarget, noexists]`**
+
+The pet begins attacking the player’s target if the pet does not already have a target; elsewise (i.e, if the pet has a target) the pet continues as before. This condition is set so that the pet can remain on a different target than the player’s if previously directed.
+
+**`/cast Kill Shot`**
+
+[**Kill Shot**](http://wod.wowhead.com/spell=53351) is cast with no modification.
+
+**`/startattack`**
+
+The player begins (or resumes) attacking.
+
+
+
+#Master’s Call
+
+##Macro
+
+	#showtooltip
+	/cast [@mouseover, exists, help, nodead] [@target, exists, help, nodead] Master's Call; Master's Call
+
+##Breakdown
+
+**`#showtooltip`**
+
+Both the icon and tooltip of this macro are defined by the ability below.
+
+**`/cast [@mouseover, exists, help, nodead] [@target, exists, help, nodead] Master's Call; Master's Call`**
+
+If there is a living, allied mouseover target, or, if there is a living, allied focused target, then [**Master's Call**](http://wod.wowhead.com/spell=53271) is cast on that target. The macro checks each of these conditions in order, and will cast when the first condition returns true; if all of these conditions are false, [**Master's Call**](http://wod.wowhead.com/spell=53271) is cast with no modification (i.e, on the player).
+
+
+
 #Multi-Shot & Combat Management
 
 ##Macro
@@ -417,3 +626,22 @@ The pet begins attacking the player’s target if the pet does not already have 
 **`/startattack`**
 
 The player begins (or resumes) attacking.
+
+
+
+#Roar of Sacrifice
+
+##Macro
+
+	#showtooltip
+	/cast [@mouseover, exists, help, nodead] [@target, exists, help, nodead] Roar of Sacrifice; Roar of Sacrifice
+
+##Breakdown
+
+**`#showtooltip`**
+
+Both the icon and tooltip of this macro are defined by the ability below.
+
+**`/cast [@mouseover, exists, help, nodead] [@target, exists, help, nodead] Roar of Sacrifice; Roar of Sacrifice`**
+
+If there is a living, allied mouseover target, or, if there is a living, allied focused target, then [**Roar of Sacrifice**](http://wod.wowhead.com/spell=53480) is cast on that target. The macro checks each of these conditions in order, and will cast when the first condition returns true; if all of these conditions are false, [**Roar of Sacrifice**](http://wod.wowhead.com/spell=53480) is cast with no modification (i.e, on the player).
