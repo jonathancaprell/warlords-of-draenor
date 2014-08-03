@@ -109,7 +109,7 @@ The player begins (or continues) attacking.
 
 
 
-#Chimaera Shot & Combat Management
+#Chimaera Shot & Combat Management, Priority
 
 ##Macro
 
@@ -153,7 +153,7 @@ The player begins (or resumes) attacking.
 
 
 
-#Counter Shot Priority System
+#Counter Shot, Priority
 
 ##Macro
 
@@ -371,7 +371,7 @@ The player begins (or continues) attacking if either [**Powershot**](http://wod.
 
 
 
-#Explosive Shot & Combat Management
+#Explosive Shot & Combat Management, Priority
 
 ##Macro
 
@@ -478,7 +478,7 @@ If there is a living, allied mouseover target; or, if there is a living, allied 
 
 
 
-#Kill Command & Combat Management
+#Kill Command & Combat Management, Priority
 
 ##Macro
 
@@ -522,7 +522,7 @@ The player begins (or resumes) attacking.
 
 
 
-#Kill Shot & Combat Management
+#Kill Shot & Combat Management, Priority
 
 ##Macro
 
@@ -585,7 +585,7 @@ If there is a living, allied mouseover target, or, if there is a living, allied 
 
 
 
-#Multi-Shot & Combat Management
+#Multi-Shot & Combat Management, Priority
 
 ##Macro
 
