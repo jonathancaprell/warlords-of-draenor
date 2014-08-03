@@ -17,7 +17,7 @@ Both the icon and tooltip of this macro are defined by the ability below.
 
 
 
-#Black Arrow
+#Black Arrow & Combat Management
 
 ##Macro
 
@@ -105,7 +105,7 @@ The player begins (or resumes) attacking.
 
 
 
-#Deterrence and Cancellation
+#Deterrence & Deterrence Cancellation
 
 ##Macro
 
@@ -129,7 +129,7 @@ If [**Deterrence**](http://wod.wowhead.com/spell=19263) is present on the player
 
 
 
-#Draenic Agility Potion + Pet Movement
+#Draenic Agility Potion & Pet Movement
 
 ##Macro
 
@@ -279,7 +279,7 @@ The player begins (or continues) attacking if either [**Powershot**](http://wod.
 
 
 
-#Explosive Shot
+#Explosive Shot & Combat Management
 
 ##Macro
 
@@ -323,7 +323,7 @@ The player begins (or resumes) attacking.
 
 
 
-#Focus Generator
+#Focus Generator & Combat Management
 
 ##Macro
 
@@ -357,7 +357,7 @@ The player begins (or continues) attacking.
 
 
 
-#Focus Target Management and Misdirection
+#Focus Target Management & Misdirection
 
 ##Macro
 
@@ -386,7 +386,7 @@ If there is a living, allied mouseover target; or, if there is a living, allied 
 
 
 
-#Multi-Shot
+#Multi-Shot & Combat Management
 
 ##Macro
 
