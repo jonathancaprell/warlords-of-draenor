@@ -22,8 +22,6 @@ Both the icon and tooltip of this macro are defined by the ability below.
 ##Macro
 
 	#showtooltip
-	/stopcasting
-	/stopcasting
 	/cancelaura Hand of Protection
 	/petattack [@pettarget, noexists]
 	/cast Black Arrow
@@ -34,14 +32,6 @@ Both the icon and tooltip of this macro are defined by the ability below.
 **`#showtooltip`**
 
 Both the icon and tooltip of this macro are defined by the ability below.
-
-**`/stopcasting`**
-
-All casting by the player is called to halt.
-
-**`/stopcasting`**
-
-All casting by the player is called to halt. This line is repeated because abilities with a cast time or channel must be halted separately from the player’s white swings.
 
 **`/cancelaura Hand of Protection`**
 
@@ -57,7 +47,7 @@ The pet begins attacking the player’s target if the pet does not already have 
 
 **`/startattack`**
 
-The player begins (or resumes) attacking.
+The player begins (or continues) attacking.
 
 
 
