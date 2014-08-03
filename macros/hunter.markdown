@@ -1,3 +1,37 @@
+#Aimed Shot & Combat Management
+
+##Macro
+
+	#showtooltip
+	/cancelaura Hand of Protection
+	/petattack [@pettarget, noexists]
+	/cast Aimed Shot
+	/startattack
+
+##Breakdown
+
+**`#showtooltip`**
+
+Both the icon and tooltip of this macro are defined by the ability below.
+
+**`/cancelaura Hand of Protection`**
+
+If [**Hand of Protection**](http://wod.wowhead.com/spell=1022) is present on the player, the aura is cancelled.
+
+**`/petattack [@pettarget, noexists]`**
+
+The pet begins attacking the player’s target if the pet does not already have a target; elsewise (i.e, if the pet has a target) the pet continues as before. This condition is set so that the pet can remain on a different target than the player’s if previously directed.
+
+**`/cast Aimed Shot`**
+
+[**Aimed Shot**](http://wod.wowhead.com/spell=19434) is cast with no modification.
+
+**`/startattack`**
+
+The player begins (or continues) attacking.
+
+
+
 #Arcane Shot & Combat Management
 
 ##Macro
@@ -368,6 +402,30 @@ An ability in the tier—[**Glaive Toss**](http://wod.wowhead.com/spell=117050),
 **`/startattack [talent: 6/2] [talent: 6/3]`**
 
 The player begins (or continues) attacking if either [**Powershot**](http://wod.wowhead.com/spell=109259) or [**Barrage**](http://wod.wowhead.com/spell=120360) was taken in the sixth tier. Elsewise, the player continues as before. These conditions are set so that [**Glaive Toss**](http://wod.wowhead.com/spell=117050) can still be pre-cast before an encounter begins.
+
+
+
+#Eagle Eye & Camera Distance
+
+##Macro
+
+	#showtooltip
+	/console cameraDistanceMax 50
+	/cast Explosive Shot
+
+##Breakdown
+
+**`#showtooltip`**
+
+Both the icon and tooltip of this macro are defined by the ability below.
+
+**`/console cameraDistanceMax 50`**
+
+The value of the maximum distance to which the camera can be zoomed is set to 50 yards (its highest allowed value).
+
+**`/cast Eagle Eye`**
+
+[**Eagle Eye**](http://wod.wowhead.com/spell=6197) is cast with no modification.
 
 
 
