@@ -411,7 +411,7 @@ The player begins (or continues) attacking if either [**Powershot**](http://wod.
 
 	#showtooltip
 	/console cameraDistanceMax 50
-	/cast Explosive Shot
+	/cast Eagle Eye
 
 ##Breakdown
 
