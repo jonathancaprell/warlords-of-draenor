@@ -1,6 +1,5 @@
-Kargath Bladefist
-
-	[b]Kargath Bladefist, Warlord of the Shattered Hand[/b], honed his brutal skills as a slave in the ogres’ gladiatorial games. He slaughtered countless opponents for the promise of freedom, but after winning, was locked away with the other retired “champions.” Fueled by rage, Kargath tore off his own hand to escape and led a revolt that soaked Draenor in ogre blood. Now, he returns to the arena to teach a lesson in the true meaning of savagery.
+#Kargath Bladefist
+**Kargath Bladefist, Warlord of the Shattered Hand**, honed his brutal skills as a slave in the ogres’ gladiatorial games. He slaughtered countless opponents for the promise of freedom, but after winning, was locked away with the other retired “champions.” Fueled by rage, Kargath tore off his own hand to escape and led a revolt that soaked Draenor in ogre blood. Now, he returns to the arena to teach a lesson in the true meaning of savagery.
 
 	[b]Roar of the Crowd[/b] [Mythic]
 		Favor gained by performing well is tracked by [b]Roar of the Crowd[/b]. As the raid’s favor increases, they gain [b]Crowd Favorite[/b] buffs that increase the raid’s damage done.
