@@ -4,10 +4,11 @@
 ##Roar of the Crowd (Mythic-only)
 Favor gained by performing well is tracked by **Roar of the Crowd**. As the raid’s favor increases, they gain **Crowd Favorite** buffs that increase the raid’s damage done.
 
-	[b]Kargath Bladefist[/b]
-		Warlord of the Shattered Hand
-		[b]Impale[/b]
-			Kargath skewers an enemy, inflicting 72,559 Physical damage every 1 second for 7.50 seconds. If the target survives, they take increased damage from consecutive [b]Impales[/b].
+##**Kargath Bladefist**
+Warlord of the Shattered Hand
+
+###**Impale**
+Kargath skewers an enemy, inflicting 72,559 Physical damage every 1 second for 7.50 seconds. If the target survives, they take increased damage from consecutive Impales[/b].
 		[b]Blade Dance[/b]
 			With blinding speed, [b]Kargath[/b] rushes random targets every 2 seconds for 10 seconds, doing 75,000 physical damage to anyone within 7 yards.
 		[b]Berserker Rush[/b]
